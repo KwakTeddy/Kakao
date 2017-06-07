@@ -1,0 +1,6 @@
+framework module Pods_iTunesApi_KakaoBankUITests {
+  umbrella header "Pods-iTunesApi_KakaoBankUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029D670BA09695003F344C8F /* Pods_iTunesApi_KakaoBankUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D89A5AFB8D6762E4928D6D2 /* Pods_iTunesApi_KakaoBankUITests.framework */; };
+		116FFB93EA3D3BBD9D45D31F /* Pods_iTunesApi_KakaoBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67E5C2C04F7F1AE07F9718FD /* Pods_iTunesApi_KakaoBank.framework */; };
+		555528D4F2A31F9E059D5DAE /* Pods_iTunesApi_KakaoBankTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C96F97A8209525DEBE7E26E /* Pods_iTunesApi_KakaoBankTests.framework */; };
+		9F3122141EE5285500F7F934 /* iTunesAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3122131EE5285500F7F934 /* iTunesAppViewModel.swift */; };
+		9F3122161EE52E1200F7F934 /* iTunesAppListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3122151EE52E1200F7F934 /* iTunesAppListViewCell.swift */; };
+		9F31221B1EE54A4E00F7F934 /* iTunesAppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31221A1EE54A4E00F7F934 /* iTunesAppDetailViewController.swift */; };
+		9F31221D1EE56AD300F7F934 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31221C1EE56AD300F7F934 /* FloatRatingView.swift */; };
+		9F344CB31EE19FDD008CAA64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F344CB21EE19FDD008CAA64 /* AppDelegate.swift */; };
+		9F344CB51EE19FDD008CAA64 /* iTunesAppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F344CB41EE19FDD008CAA64 /* iTunesAppListViewController.swift */; };
+		9F344CB81EE19FDD008CAA64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F344CB61EE19FDD008CAA64 /* Main.storyboard */; };
+		9F344CBA1EE19FDD008CAA64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F344CB91EE19FDD008CAA64 /* Assets.xcassets */; };
+		9F344CBD1EE19FDD008CAA64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F344CBB1EE19FDD008CAA64 /* LaunchScreen.storyboard */; };
+		9F344CC81EE19FDD008CAA64 /* iTunesApi_KakaoBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F344CC71EE19FDD008CAA64 /* iTunesApi_KakaoBankTests.swift */; };
+		9F344CD31EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F344CD21EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests.swift */; };
+		9F344CE11EE1CBCB008CAA64 /* iTunesAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F344CE01EE1CBCB008CAA64 /* iTunesAppModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F344CC41EE19FDD008CAA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F344CA71EE19FDD008CAA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F344CAE1EE19FDD008CAA64;
+			remoteInfo = iTunesApi_KakaoBank;
+		};
+		9F344CCF1EE19FDD008CAA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F344CA71EE19FDD008CAA64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F344CAE1EE19FDD008CAA64;
+			remoteInfo = iTunesApi_KakaoBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E177D6905A1FC4326D1345 /* Pods-iTunesApi_KakaoBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesApi_KakaoBankUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesApi_KakaoBankUITests/Pods-iTunesApi_KakaoBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		09AFD82DD9FED66A90ACB794 /* Pods-iTunesApi_KakaoBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesApi_KakaoBankUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesApi_KakaoBankUITests/Pods-iTunesApi_KakaoBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C96F97A8209525DEBE7E26E /* Pods_iTunesApi_KakaoBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesApi_KakaoBankTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13C2C0632CB837A4C8690C06 /* Pods-iTunesApi_KakaoBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesApi_KakaoBank.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesApi_KakaoBank/Pods-iTunesApi_KakaoBank.debug.xcconfig"; sourceTree = "<group>"; };
+		653391C539FBE3A170030A24 /* Pods-iTunesApi_KakaoBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesApi_KakaoBankTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesApi_KakaoBankTests/Pods-iTunesApi_KakaoBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		67E5C2C04F7F1AE07F9718FD /* Pods_iTunesApi_KakaoBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesApi_KakaoBank.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D89A5AFB8D6762E4928D6D2 /* Pods_iTunesApi_KakaoBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesApi_KakaoBankUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3122131EE5285500F7F934 /* iTunesAppViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesAppViewModel.swift; sourceTree = "<group>"; };
+		9F3122151EE52E1200F7F934 /* iTunesAppListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesAppListViewCell.swift; sourceTree = "<group>"; };
+		9F31221A1EE54A4E00F7F934 /* iTunesAppDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesAppDetailViewController.swift; sourceTree = "<group>"; };
+		9F31221C1EE56AD300F7F934 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		9F344CAF1EE19FDD008CAA64 /* iTunesApi_KakaoBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesApi_KakaoBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F344CB21EE19FDD008CAA64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F344CB41EE19FDD008CAA64 /* iTunesAppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesAppListViewController.swift; sourceTree = "<group>"; };
+		9F344CB71EE19FDD008CAA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F344CB91EE19FDD008CAA64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F344CBC1EE19FDD008CAA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F344CBE1EE19FDD008CAA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F344CC31EE19FDD008CAA64 /* iTunesApi_KakaoBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesApi_KakaoBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F344CC71EE19FDD008CAA64 /* iTunesApi_KakaoBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesApi_KakaoBankTests.swift; sourceTree = "<group>"; };
+		9F344CC91EE19FDD008CAA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F344CCE1EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesApi_KakaoBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F344CD21EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesApi_KakaoBankUITests.swift; sourceTree = "<group>"; };
+		9F344CD41EE19FDD008CAA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F344CE01EE1CBCB008CAA64 /* iTunesAppModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesAppModel.swift; sourceTree = "<group>"; };
+		B6E21B4B459A15404BEE4177 /* Pods-iTunesApi_KakaoBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesApi_KakaoBankTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesApi_KakaoBankTests/Pods-iTunesApi_KakaoBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA719E3B285D9DA8B23F4651 /* Pods-iTunesApi_KakaoBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesApi_KakaoBank.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesApi_KakaoBank/Pods-iTunesApi_KakaoBank.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F344CAC1EE19FDD008CAA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116FFB93EA3D3BBD9D45D31F /* Pods_iTunesApi_KakaoBank.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F344CC01EE19FDD008CAA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555528D4F2A31F9E059D5DAE /* Pods_iTunesApi_KakaoBankTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F344CCB1EE19FDD008CAA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				029D670BA09695003F344C8F /* Pods_iTunesApi_KakaoBankUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96D44CD76810CCB91C9B3FCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13C2C0632CB837A4C8690C06 /* Pods-iTunesApi_KakaoBank.debug.xcconfig */,
+				DA719E3B285D9DA8B23F4651 /* Pods-iTunesApi_KakaoBank.release.xcconfig */,
+				653391C539FBE3A170030A24 /* Pods-iTunesApi_KakaoBankTests.debug.xcconfig */,
+				B6E21B4B459A15404BEE4177 /* Pods-iTunesApi_KakaoBankTests.release.xcconfig */,
+				09AFD82DD9FED66A90ACB794 /* Pods-iTunesApi_KakaoBankUITests.debug.xcconfig */,
+				03E177D6905A1FC4326D1345 /* Pods-iTunesApi_KakaoBankUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F3122101EE527DA00F7F934 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F344CE01EE1CBCB008CAA64 /* iTunesAppModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F3122111EE527EA00F7F934 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F344CB41EE19FDD008CAA64 /* iTunesAppListViewController.swift */,
+				9F31221A1EE54A4E00F7F934 /* iTunesAppDetailViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9F3122121EE5281600F7F934 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F3122131EE5285500F7F934 /* iTunesAppViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F31221E1EE56AE300F7F934 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F31221C1EE56AD300F7F934 /* FloatRatingView.swift */,
+				9F3122151EE52E1200F7F934 /* iTunesAppListViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9F344CA61EE19FDD008CAA64 = {
+			isa = PBXGroup;
+			children = (
+				9F344CB11EE19FDD008CAA64 /* iTunesApi_KakaoBank */,
+				9F344CC61EE19FDD008CAA64 /* iTunesApi_KakaoBankTests */,
+				9F344CD11EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests */,
+				9F344CB01EE19FDD008CAA64 /* Products */,
+				96D44CD76810CCB91C9B3FCC /* Pods */,
+				A5B78C875A096704BAE5C28D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F344CB01EE19FDD008CAA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F344CAF1EE19FDD008CAA64 /* iTunesApi_KakaoBank.app */,
+				9F344CC31EE19FDD008CAA64 /* iTunesApi_KakaoBankTests.xctest */,
+				9F344CCE1EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F344CB11EE19FDD008CAA64 /* iTunesApi_KakaoBank */ = {
+			isa = PBXGroup;
+			children = (
+				9F344CB21EE19FDD008CAA64 /* AppDelegate.swift */,
+				9F3122101EE527DA00F7F934 /* Model */,
+				9F3122121EE5281600F7F934 /* ViewModel */,
+				9F3122111EE527EA00F7F934 /* ViewController */,
+				9F31221E1EE56AE300F7F934 /* View */,
+				9F344CB61EE19FDD008CAA64 /* Main.storyboard */,
+				9F344CBB1EE19FDD008CAA64 /* LaunchScreen.storyboard */,
+				9F344CB91EE19FDD008CAA64 /* Assets.xcassets */,
+				9F344CBE1EE19FDD008CAA64 /* Info.plist */,
+			);
+			path = iTunesApi_KakaoBank;
+			sourceTree = "<group>";
+		};
+		9F344CC61EE19FDD008CAA64 /* iTunesApi_KakaoBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F344CC71EE19FDD008CAA64 /* iTunesApi_KakaoBankTests.swift */,
+				9F344CC91EE19FDD008CAA64 /* Info.plist */,
+			);
+			path = iTunesApi_KakaoBankTests;
+			sourceTree = "<group>";
+		};
+		9F344CD11EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F344CD21EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests.swift */,
+				9F344CD41EE19FDD008CAA64 /* Info.plist */,
+			);
+			path = iTunesApi_KakaoBankUITests;
+			sourceTree = "<group>";
+		};
+		A5B78C875A096704BAE5C28D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67E5C2C04F7F1AE07F9718FD /* Pods_iTunesApi_KakaoBank.framework */,
+				0C96F97A8209525DEBE7E26E /* Pods_iTunesApi_KakaoBankTests.framework */,
+				6D89A5AFB8D6762E4928D6D2 /* Pods_iTunesApi_KakaoBankUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F344CAE1EE19FDD008CAA64 /* iTunesApi_KakaoBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F344CD71EE19FDD008CAA64 /* Build configuration list for PBXNativeTarget "iTunesApi_KakaoBank" */;
+			buildPhases = (
+				79DDBBEC3AD4C24A42B071A9 /* [CP] Check Pods Manifest.lock */,
+				9F344CAB1EE19FDD008CAA64 /* Sources */,
+				9F344CAC1EE19FDD008CAA64 /* Frameworks */,
+				9F344CAD1EE19FDD008CAA64 /* Resources */,
+				5473BF9A0A8F8B855D8EBBA0 /* [CP] Embed Pods Frameworks */,
+				B653A9B2433D5658B1281D7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesApi_KakaoBank;
+			productName = iTunesApi_KakaoBank;
+			productReference = 9F344CAF1EE19FDD008CAA64 /* iTunesApi_KakaoBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F344CC21EE19FDD008CAA64 /* iTunesApi_KakaoBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F344CDA1EE19FDD008CAA64 /* Build configuration list for PBXNativeTarget "iTunesApi_KakaoBankTests" */;
+			buildPhases = (
+				2A7345C2840A27684D90B8DD /* [CP] Check Pods Manifest.lock */,
+				9F344CBF1EE19FDD008CAA64 /* Sources */,
+				9F344CC01EE19FDD008CAA64 /* Frameworks */,
+				9F344CC11EE19FDD008CAA64 /* Resources */,
+				1545EF557CDF9F01E0E79E61 /* [CP] Embed Pods Frameworks */,
+				67909EB426E0E5FED9017C3C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F344CC51EE19FDD008CAA64 /* PBXTargetDependency */,
+			);
+			name = iTunesApi_KakaoBankTests;
+			productName = iTunesApi_KakaoBankTests;
+			productReference = 9F344CC31EE19FDD008CAA64 /* iTunesApi_KakaoBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F344CCD1EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F344CDD1EE19FDD008CAA64 /* Build configuration list for PBXNativeTarget "iTunesApi_KakaoBankUITests" */;
+			buildPhases = (
+				923EDC1A624E863C71D2AF9B /* [CP] Check Pods Manifest.lock */,
+				9F344CCA1EE19FDD008CAA64 /* Sources */,
+				9F344CCB1EE19FDD008CAA64 /* Frameworks */,
+				9F344CCC1EE19FDD008CAA64 /* Resources */,
+				81DAE02C7F4C6EB41D39109D /* [CP] Embed Pods Frameworks */,
+				6D494D8FA4E9ADC22AABA1D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F344CD01EE19FDD008CAA64 /* PBXTargetDependency */,
+			);
+			name = iTunesApi_KakaoBankUITests;
+			productName = iTunesApi_KakaoBankUITests;
+			productReference = 9F344CCE1EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F344CA71EE19FDD008CAA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Teddy Kwak";
+				TargetAttributes = {
+					9F344CAE1EE19FDD008CAA64 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 52BBN2RSJU;
+						ProvisioningStyle = Automatic;
+					};
+					9F344CC21EE19FDD008CAA64 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F344CAE1EE19FDD008CAA64;
+					};
+					9F344CCD1EE19FDD008CAA64 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F344CAE1EE19FDD008CAA64;
+					};
+				};
+			};
+			buildConfigurationList = 9F344CAA1EE19FDD008CAA64 /* Build configuration list for PBXProject "iTunesApi_KakaoBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F344CA61EE19FDD008CAA64;
+			productRefGroup = 9F344CB01EE19FDD008CAA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F344CAE1EE19FDD008CAA64 /* iTunesApi_KakaoBank */,
+				9F344CC21EE19FDD008CAA64 /* iTunesApi_KakaoBankTests */,
+				9F344CCD1EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F344CAD1EE19FDD008CAA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F344CBD1EE19FDD008CAA64 /* LaunchScreen.storyboard in Resources */,
+				9F344CBA1EE19FDD008CAA64 /* Assets.xcassets in Resources */,
+				9F344CB81EE19FDD008CAA64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F344CC11EE19FDD008CAA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F344CCC1EE19FDD008CAA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1545EF557CDF9F01E0E79E61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesApi_KakaoBankTests/Pods-iTunesApi_KakaoBankTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A7345C2840A27684D90B8DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5473BF9A0A8F8B855D8EBBA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesApi_KakaoBank/Pods-iTunesApi_KakaoBank-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67909EB426E0E5FED9017C3C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesApi_KakaoBankTests/Pods-iTunesApi_KakaoBankTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D494D8FA4E9ADC22AABA1D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesApi_KakaoBankUITests/Pods-iTunesApi_KakaoBankUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79DDBBEC3AD4C24A42B071A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81DAE02C7F4C6EB41D39109D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesApi_KakaoBankUITests/Pods-iTunesApi_KakaoBankUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		923EDC1A624E863C71D2AF9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B653A9B2433D5658B1281D7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTunesApi_KakaoBank/Pods-iTunesApi_KakaoBank-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F344CAB1EE19FDD008CAA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F31221B1EE54A4E00F7F934 /* iTunesAppDetailViewController.swift in Sources */,
+				9F344CB51EE19FDD008CAA64 /* iTunesAppListViewController.swift in Sources */,
+				9F31221D1EE56AD300F7F934 /* FloatRatingView.swift in Sources */,
+				9F344CB31EE19FDD008CAA64 /* AppDelegate.swift in Sources */,
+				9F3122141EE5285500F7F934 /* iTunesAppViewModel.swift in Sources */,
+				9F344CE11EE1CBCB008CAA64 /* iTunesAppModel.swift in Sources */,
+				9F3122161EE52E1200F7F934 /* iTunesAppListViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F344CBF1EE19FDD008CAA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F344CC81EE19FDD008CAA64 /* iTunesApi_KakaoBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F344CCA1EE19FDD008CAA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F344CD31EE19FDD008CAA64 /* iTunesApi_KakaoBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F344CC51EE19FDD008CAA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F344CAE1EE19FDD008CAA64 /* iTunesApi_KakaoBank */;
+			targetProxy = 9F344CC41EE19FDD008CAA64 /* PBXContainerItemProxy */;
+		};
+		9F344CD01EE19FDD008CAA64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F344CAE1EE19FDD008CAA64 /* iTunesApi_KakaoBank */;
+			targetProxy = 9F344CCF1EE19FDD008CAA64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F344CB61EE19FDD008CAA64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F344CB71EE19FDD008CAA64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F344CBB1EE19FDD008CAA64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F344CBC1EE19FDD008CAA64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F344CD51EE19FDD008CAA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F344CD61EE19FDD008CAA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F344CD81EE19FDD008CAA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C2C0632CB837A4C8690C06 /* Pods-iTunesApi_KakaoBank.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52BBN2RSJU;
+				INFOPLIST_FILE = iTunesApi_KakaoBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teddy.iTunesApi-KakaoBank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F344CD91EE19FDD008CAA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA719E3B285D9DA8B23F4651 /* Pods-iTunesApi_KakaoBank.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 52BBN2RSJU;
+				INFOPLIST_FILE = iTunesApi_KakaoBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teddy.iTunesApi-KakaoBank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F344CDB1EE19FDD008CAA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 653391C539FBE3A170030A24 /* Pods-iTunesApi_KakaoBankTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iTunesApi_KakaoBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teddy.iTunesApi-KakaoBankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesApi_KakaoBank.app/iTunesApi_KakaoBank";
+			};
+			name = Debug;
+		};
+		9F344CDC1EE19FDD008CAA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6E21B4B459A15404BEE4177 /* Pods-iTunesApi_KakaoBankTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iTunesApi_KakaoBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teddy.iTunesApi-KakaoBankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesApi_KakaoBank.app/iTunesApi_KakaoBank";
+			};
+			name = Release;
+		};
+		9F344CDE1EE19FDD008CAA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AFD82DD9FED66A90ACB794 /* Pods-iTunesApi_KakaoBankUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iTunesApi_KakaoBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teddy.iTunesApi-KakaoBankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iTunesApi_KakaoBank;
+			};
+			name = Debug;
+		};
+		9F344CDF1EE19FDD008CAA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E177D6905A1FC4326D1345 /* Pods-iTunesApi_KakaoBankUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = iTunesApi_KakaoBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.teddy.iTunesApi-KakaoBankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iTunesApi_KakaoBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F344CAA1EE19FDD008CAA64 /* Build configuration list for PBXProject "iTunesApi_KakaoBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F344CD51EE19FDD008CAA64 /* Debug */,
+				9F344CD61EE19FDD008CAA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F344CD71EE19FDD008CAA64 /* Build configuration list for PBXNativeTarget "iTunesApi_KakaoBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F344CD81EE19FDD008CAA64 /* Debug */,
+				9F344CD91EE19FDD008CAA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F344CDA1EE19FDD008CAA64 /* Build configuration list for PBXNativeTarget "iTunesApi_KakaoBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F344CDB1EE19FDD008CAA64 /* Debug */,
+				9F344CDC1EE19FDD008CAA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F344CDD1EE19FDD008CAA64 /* Build configuration list for PBXNativeTarget "iTunesApi_KakaoBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F344CDE1EE19FDD008CAA64 /* Debug */,
+				9F344CDF1EE19FDD008CAA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F344CA71EE19FDD008CAA64 /* Project object */;
+}

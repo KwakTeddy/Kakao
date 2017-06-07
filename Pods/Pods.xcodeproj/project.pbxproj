@@ -1,0 +1,1320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09CB5C14B744C3197DDB145B7CF4A38C /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3145ACF8927F62FCA385169ADC23F3D8 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5D8E130FF8E2D42EB9C9B62A36D324 /* Pods-iTunesApi_KakaoBank-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB060D573EC314AE31A91760A2C2CE53 /* Pods-iTunesApi_KakaoBank-dummy.m */; };
+		0CE77242B96230E51232899B8CE00444 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB65E2CDE63CEFE8A44FD1984F3BE2D /* SVProgressAnimatedView.m */; };
+		0CFCC22E313035CA0D50C79C4CC66B2D /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CED7BDE13A3B45A96C7FE6A044AFF19 /* SVProgressHUD-dummy.m */; };
+		0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F807F0801F84035B910162AA91326B /* ImageProcessor.swift */; };
+		14D577DF8D07FC2DF90A18E506906461 /* Pods-iTunesApi_KakaoBankTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3335CAC487E9AA405C5C6A05663E2AB /* Pods-iTunesApi_KakaoBankTests-dummy.m */; };
+		179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */ = {isa = PBXBuildFile; fileRef = 460E6C2F0C60CB37F1EF094DC9037B2F /* Kingfisher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D0D55EF4464BA1F7522B8A6547350D /* CacheSerializer.swift */; };
+		2E8E849A107987267F303C4EF4F81086 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		3198DB2779A40DE5D3770F372760024C /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 214C1525AD74258B40F485FA47F0B104 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9A1A0EA25B012A6EEE9F6776B28EEA /* ImageView+Kingfisher.swift */; };
+		33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512115CF46FC745765479104A6390D60 /* Image.swift */; };
+		3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8604CDE2EC195950A5272ED9D099D2 /* ImagePrefetcher.swift */; };
+		342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332068EE181D388621E33349D5C06AD0 /* AnimatedImageView.swift */; };
+		378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412A04C99039967B5CCABBF99F62CE2 /* KingfisherOptionsInfo.swift */; };
+		4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A838042ECDA5D89A31E12C1C89E946B5 /* Filter.swift */; };
+		52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452492E91F5D4F606E3828AD73AE8079 /* Indicator.swift */; };
+		67656B42823CC835C85E750CB7EE5317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20193C4DE9FC67057EC115F7F2471ADB /* Kingfisher-dummy.m */; };
+		6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEF08D12FE6C76CBCEAD1A484C7685F /* ThreadHelper.swift */; };
+		6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D052026D7EF41E6BF0186A34D4E8214 /* Box.swift */; };
+		7215D00572824E79B9699B50E23BED86 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 845809396A4E5FB4D25E92C541802005 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E2E9AEFA4B7D7D279A5C047123E050 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7711629E4FD5199799EA8674E76F16 /* KingfisherManager.swift */; };
+		76618F6030452029C57F4BE3CC60190F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		7E6E12F415EE89C15503AF87452EBDDC /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EC7561D8BA5B52AA05B4DAB092CBF6 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		803D006907D0B2BCAA27E786DEDB2EE7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29E773093D44B778DB74AC5663DA9EC /* QuartzCore.framework */; };
+		80649564D821EFBE051EFE3D1235433F /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AC5729934BAF80533E1C899FEB61B4 /* SVProgressHUD.m */; };
+		80A9ABB43F7CDA314333C26E028C1A0D /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5385768662CB7F61496DB2A16986E18 /* SwiftyJSON-dummy.m */; };
+		81372AAB46225624A8F1DD8471C6D1A8 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F19A6ABB8B5CC4E606F44CAFE3EC02C /* SVProgressHUD.bundle */; };
+		86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6D6A6D60CAF5F0B538301D8306C4F /* ImageTransition.swift */; };
+		8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C4C57F6E91B21DC03EBAB6BCC63D0 /* Resource.swift */; };
+		92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B4C5EF04AF72A50CBFAFA7C8CB92B5 /* CFNetwork.framework */; };
+		95BB74743BF2436045D93B48391E3842 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28BB1F2C4EBF167E96070D74C4AA94BB /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F74899A537FBB55BC03EC62535271 /* String+MD5.swift */; };
+		9FB0D33F6B4DBF96F4463E805D7532F3 /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 527B245643DD25E49B999BB216E34AE2 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A75475C6F8FA5E4BCCAED12EB31D46C3 /* Pods-iTunesApi_KakaoBankUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D66FD0FC6F4B0397398582CB32502069 /* Pods-iTunesApi_KakaoBankUITests-dummy.m */; };
+		A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA815D012416CCE28B8661918AEC1F7 /* Kingfisher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB0840B1D77364E1B52EB57922AE2E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */; };
+		C28ECAB0E7A55DB60E0B4DCA17290F06 /* Pods-iTunesApi_KakaoBankUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 021C4248458B439A6F3E891A747A0B25 /* Pods-iTunesApi_KakaoBankUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3C0EDAF1AC539FC345BCB66287CDEA2 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85747BCC7A537BDE7D751B4A74FBC674 /* SVIndefiniteAnimatedView.m */; };
+		C5C0CAA3C4C3622C4B2B417616756FA4 /* Pods-iTunesApi_KakaoBankTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8043BF8E080B0F78406B1B18DCFAC0B8 /* Pods-iTunesApi_KakaoBankTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6494C96EB6CD385ACD010CE0D348BAB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231BEB0C982A305B8D7FA8A291799345 /* SwiftyJSON.swift */; };
+		C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE23CD9B24EB01BAC95C425E0725BD2 /* Kingfisher.swift */; };
+		CB722567A989D34CDCE25B1573170BE8 /* Pods-iTunesApi_KakaoBank-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F81035BC56219B23AB761E8958B9D31C /* Pods-iTunesApi_KakaoBank-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15FF58A15C0C3A278577D665EB10A202 /* ImageDownloader.swift */; };
+		E772438F2B4DE1FAF1DE6259710AFF10 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EAFFBC20F13CD33721AE200E694AED /* SVRadialGradientLayer.m */; };
+		EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E06570D27B31EA2704201F52B7847F9 /* RequestModifier.swift */; };
+		EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26078803459D23F6E4B301F7300B98B /* UIButton+Kingfisher.swift */; };
+		F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68827CFD092B683381D9A17511188431 /* ImageCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B4C41BD9331C351775B408FBC7DBEB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA45262EC4E6DAE1FAA3FDDBAF86CC6E;
+			remoteInfo = SwiftyJSON;
+		};
+		A156FBDC979A088741AC1463B82B44D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4944FEC314D1A66588651D006273ADE;
+			remoteInfo = Kingfisher;
+		};
+		E94B44A81649FE3A4D94455327465469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32B87E27C8BB8FDFC3CC463B9A6B0882;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021C4248458B439A6F3E891A747A0B25 /* Pods-iTunesApi_KakaoBankUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesApi_KakaoBankUITests-umbrella.h"; sourceTree = "<group>"; };
+		060AE7CA49C8BB75031D05D92B3D5A2C /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		0AC4B129CD67E2EDC7EC8C7C24C44E7A /* Pods-iTunesApi_KakaoBankUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesApi_KakaoBankUITests-resources.sh"; sourceTree = "<group>"; };
+		0D052026D7EF41E6BF0186A34D4E8214 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		11A32172DC0EA26761907CAC228EF3D2 /* Pods-iTunesApi_KakaoBank-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesApi_KakaoBank-acknowledgements.markdown"; sourceTree = "<group>"; };
+		15FF58A15C0C3A278577D665EB10A202 /* ImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDownloader.swift; path = Sources/ImageDownloader.swift; sourceTree = "<group>"; };
+		19AB34BF989BE76E94AFABB01EF0E7CB /* Pods-iTunesApi_KakaoBankTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesApi_KakaoBankTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A5007F4D34A89DB8D92A783B0B9850C /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		1B7711629E4FD5199799EA8674E76F16 /* KingfisherManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherManager.swift; path = Sources/KingfisherManager.swift; sourceTree = "<group>"; };
+		1C16B76F5612EBA8CB3F830BA8AF58AD /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
+		1CED7BDE13A3B45A96C7FE6A044AFF19 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		1E06570D27B31EA2704201F52B7847F9 /* RequestModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestModifier.swift; path = Sources/RequestModifier.swift; sourceTree = "<group>"; };
+		1FD0149B4A06D40818F37F99C29C68E3 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kingfisher.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20193C4DE9FC67057EC115F7F2471ADB /* Kingfisher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kingfisher-dummy.m"; sourceTree = "<group>"; };
+		214C1525AD74258B40F485FA47F0B104 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		228524EBE63CC8FABEFD1E8341F1D8A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231BEB0C982A305B8D7FA8A291799345 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		267161E6ADFEF497EA3BED93289106C8 /* Pods-iTunesApi_KakaoBank-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesApi_KakaoBank-resources.sh"; sourceTree = "<group>"; };
+		28BB1F2C4EBF167E96070D74C4AA94BB /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		294F97245BCEB5A7A5A4D027C2E3B131 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A30E610AEF364DF3C23706A7B44F589 /* Pods-iTunesApi_KakaoBankUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesApi_KakaoBankUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F11CDE9466106040FECC04537D183C6 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		2FA815D012416CCE28B8661918AEC1F7 /* Kingfisher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-umbrella.h"; sourceTree = "<group>"; };
+		3145ACF8927F62FCA385169ADC23F3D8 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		31C531CA7E038E73EC74EED691A976B7 /* Pods-iTunesApi_KakaoBankTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iTunesApi_KakaoBankTests.modulemap"; sourceTree = "<group>"; };
+		332068EE181D388621E33349D5C06AD0 /* AnimatedImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedImageView.swift; path = Sources/AnimatedImageView.swift; sourceTree = "<group>"; };
+		34053EB522A0CCC6EEAC03D871B3CD8E /* Pods-iTunesApi_KakaoBankUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iTunesApi_KakaoBankUITests.modulemap"; sourceTree = "<group>"; };
+		3E72EB390C0D65EC6A8CD12D520CC15E /* Pods_iTunesApi_KakaoBank.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iTunesApi_KakaoBank.framework; path = "Pods-iTunesApi_KakaoBank.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F19A6ABB8B5CC4E606F44CAFE3EC02C /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		40EAFFBC20F13CD33721AE200E694AED /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		44B4C5EF04AF72A50CBFAFA7C8CB92B5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		452492E91F5D4F606E3828AD73AE8079 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
+		460E6C2F0C60CB37F1EF094DC9037B2F /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
+		461F5D6058215EA88EA5AF6BBA4E8740 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A8AEE526460DABAF9B07179CC1D05F9 /* Pods-iTunesApi_KakaoBankTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesApi_KakaoBankTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C6C4C57F6E91B21DC03EBAB6BCC63D0 /* Resource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Sources/Resource.swift; sourceTree = "<group>"; };
+		512115CF46FC745765479104A6390D60 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		527B245643DD25E49B999BB216E34AE2 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		532D64F25C71546500C29C47B94C35EB /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		54175525733E889CA06212BF919ECCE8 /* Pods-iTunesApi_KakaoBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesApi_KakaoBank.release.xcconfig"; sourceTree = "<group>"; };
+		6066F0EC8BAF76082E4BDE1CD7D8DD75 /* Pods-iTunesApi_KakaoBankTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesApi_KakaoBankTests-resources.sh"; sourceTree = "<group>"; };
+		61AC5729934BAF80533E1C899FEB61B4 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		64084E084B8467C2C8DF6E63ECA21421 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		670FB560235599DF48B105B9C766B79A /* Pods-iTunesApi_KakaoBankTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesApi_KakaoBankTests-frameworks.sh"; sourceTree = "<group>"; };
+		67705BE7C53596581713AEFCAAC41F55 /* Pods-iTunesApi_KakaoBankTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesApi_KakaoBankTests.release.xcconfig"; sourceTree = "<group>"; };
+		685D271DAAAD068A9A0EBF9C0BAEAD77 /* Pods_iTunesApi_KakaoBankUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iTunesApi_KakaoBankUITests.framework; path = "Pods-iTunesApi_KakaoBankUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68827CFD092B683381D9A17511188431 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		6C8604CDE2EC195950A5272ED9D099D2 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
+		73BF9D124EA676F6BEA3663023698358 /* Pods-iTunesApi_KakaoBank-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesApi_KakaoBank-frameworks.sh"; sourceTree = "<group>"; };
+		789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78B3E9D016AAB08D3ED0711E810031CC /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC6D6A6D60CAF5F0B538301D8306C4F /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		8043BF8E080B0F78406B1B18DCFAC0B8 /* Pods-iTunesApi_KakaoBankTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesApi_KakaoBankTests-umbrella.h"; sourceTree = "<group>"; };
+		8216B94B4A5B577A45E832DD234910C1 /* Pods_iTunesApi_KakaoBankTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iTunesApi_KakaoBankTests.framework; path = "Pods-iTunesApi_KakaoBankTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832A0FB116F56CE224ABC3113372C2C1 /* Pods-iTunesApi_KakaoBankUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesApi_KakaoBankUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8412A04C99039967B5CCABBF99F62CE2 /* KingfisherOptionsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KingfisherOptionsInfo.swift; path = Sources/KingfisherOptionsInfo.swift; sourceTree = "<group>"; };
+		845809396A4E5FB4D25E92C541802005 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		85747BCC7A537BDE7D751B4A74FBC674 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		90F807F0801F84035B910162AA91326B /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
+		9289AB24A186ACCB3D8D838FAE29E624 /* Pods-iTunesApi_KakaoBank-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesApi_KakaoBank-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEF08D12FE6C76CBCEAD1A484C7685F /* ThreadHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadHelper.swift; path = Sources/ThreadHelper.swift; sourceTree = "<group>"; };
+		A0FDC156657F192348A8A6821BC46396 /* Pods-iTunesApi_KakaoBankUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesApi_KakaoBankUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1F2416A87E68384880CA43C0A0907BC /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		A838042ECDA5D89A31E12C1C89E946B5 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		ADE23CD9B24EB01BAC95C425E0725BD2 /* Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kingfisher.swift; path = Sources/Kingfisher.swift; sourceTree = "<group>"; };
+		B1C227EB067B9B078A9C1326A02B2810 /* Pods-iTunesApi_KakaoBank.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesApi_KakaoBank.debug.xcconfig"; sourceTree = "<group>"; };
+		B26078803459D23F6E4B301F7300B98B /* UIButton+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Kingfisher.swift"; path = "Sources/UIButton+Kingfisher.swift"; sourceTree = "<group>"; };
+		B29E773093D44B778DB74AC5663DA9EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B3335CAC487E9AA405C5C6A05663E2AB /* Pods-iTunesApi_KakaoBankTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesApi_KakaoBankTests-dummy.m"; sourceTree = "<group>"; };
+		B692014A7F4EEB475242ADAF5B551270 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF18602616CB64EF4887E683E997286B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C492EC9E83B927E16A51CE7AB2D75DAE /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
+		CAB65E2CDE63CEFE8A44FD1984F3BE2D /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		CB060D573EC314AE31A91760A2C2CE53 /* Pods-iTunesApi_KakaoBank-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesApi_KakaoBank-dummy.m"; sourceTree = "<group>"; };
+		CB14253699CED82F819791CE7B7A2E2C /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		D66FD0FC6F4B0397398582CB32502069 /* Pods-iTunesApi_KakaoBankUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesApi_KakaoBankUITests-dummy.m"; sourceTree = "<group>"; };
+		DE2F74899A537FBB55BC03EC62535271 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		E224627F2EB2E90202EA63B3379F9C4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30A7A6E807E137388DA1F46B9A297DF /* Pods-iTunesApi_KakaoBankUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesApi_KakaoBankUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5385768662CB7F61496DB2A16986E18 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		EADB11AEB0F0E69EB8DB0D1380B3A008 /* Pods-iTunesApi_KakaoBankTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesApi_KakaoBankTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB20C61A090677E363874C1B79B8F387 /* Pods-iTunesApi_KakaoBank.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iTunesApi_KakaoBank.modulemap"; sourceTree = "<group>"; };
+		F25B935E303C9CF62129F0B4885FABFA /* Pods-iTunesApi_KakaoBankUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesApi_KakaoBankUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F5645E84CDBB5A025E3B713EB121504D /* Kingfisher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kingfisher.modulemap; sourceTree = "<group>"; };
+		F5D0D55EF4464BA1F7522B8A6547350D /* CacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CacheSerializer.swift; path = Sources/CacheSerializer.swift; sourceTree = "<group>"; };
+		F5EC7561D8BA5B52AA05B4DAB092CBF6 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		F81035BC56219B23AB761E8958B9D31C /* Pods-iTunesApi_KakaoBank-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesApi_KakaoBank-umbrella.h"; sourceTree = "<group>"; };
+		FC9A1A0EA25B012A6EEE9F6776B28EEA /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F1BEFDA917FACADED0FC770683DF9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E8E849A107987267F303C4EF4F81086 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7EEC2FF183C75583B87B7E277DA333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFB0840B1D77364E1B52EB57922AE2E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642E950AEDEA5C9BA5C05A7D9EEC5C31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67656B42823CC835C85E750CB7EE5317 /* Foundation.framework in Frameworks */,
+				803D006907D0B2BCAA27E786DEDB2EE7 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB8E917A2357FA4CC119B5421D6DD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E2E9AEFA4B7D7D279A5C047123E050 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92136C6584624998D5005F46C70A628B /* CFNetwork.framework in Frameworks */,
+				9C99E45B90BD95712D9878994BFC8B88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4F91FACB53EF5C86EC8083D1B04D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76618F6030452029C57F4BE3CC60190F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50E85800E889287FEC5A6920DBA9546 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C20E392AEB12871A2AD85F60C19E4A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				228524EBE63CC8FABEFD1E8341F1D8A3 /* Info.plist */,
+				2F11CDE9466106040FECC04537D183C6 /* SwiftyJSON.modulemap */,
+				A1F2416A87E68384880CA43C0A0907BC /* SwiftyJSON.xcconfig */,
+				E5385768662CB7F61496DB2A16986E18 /* SwiftyJSON-dummy.m */,
+				060AE7CA49C8BB75031D05D92B3D5A2C /* SwiftyJSON-prefix.pch */,
+				28BB1F2C4EBF167E96070D74C4AA94BB /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		306F42A9D906BC332AA7207AD22A69E4 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				231BEB0C982A305B8D7FA8A291799345 /* SwiftyJSON.swift */,
+				2C20E392AEB12871A2AD85F60C19E4A6 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		3FA96C2C9EBDBE9293C795E8BD1D5FCF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B692014A7F4EEB475242ADAF5B551270 /* Info.plist */,
+				F5645E84CDBB5A025E3B713EB121504D /* Kingfisher.modulemap */,
+				C492EC9E83B927E16A51CE7AB2D75DAE /* Kingfisher.xcconfig */,
+				20193C4DE9FC67057EC115F7F2471ADB /* Kingfisher-dummy.m */,
+				1C16B76F5612EBA8CB3F830BA8AF58AD /* Kingfisher-prefix.pch */,
+				2FA815D012416CCE28B8661918AEC1F7 /* Kingfisher-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		6B4BB5DDCA93C7CC86D5EE5165FD56A4 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				214C1525AD74258B40F485FA47F0B104 /* SVIndefiniteAnimatedView.h */,
+				85747BCC7A537BDE7D751B4A74FBC674 /* SVIndefiniteAnimatedView.m */,
+				3145ACF8927F62FCA385169ADC23F3D8 /* SVProgressAnimatedView.h */,
+				CAB65E2CDE63CEFE8A44FD1984F3BE2D /* SVProgressAnimatedView.m */,
+				845809396A4E5FB4D25E92C541802005 /* SVProgressHUD.h */,
+				61AC5729934BAF80533E1C899FEB61B4 /* SVProgressHUD.m */,
+				527B245643DD25E49B999BB216E34AE2 /* SVRadialGradientLayer.h */,
+				40EAFFBC20F13CD33721AE200E694AED /* SVRadialGradientLayer.m */,
+				FE41F4D4D4726653CE4BAB86074BB2CC /* Resources */,
+				8354CFC37A842BE7FAAC8ABA4D17FBA2 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				8AE15D78491E7A37F4C08B0895234698 /* Pods */,
+				CAF49CA9B47CE25BA260AD7CBA358FCC /* Products */,
+				972BD2961BCB40AFCC43277DE825500F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8354CFC37A842BE7FAAC8ABA4D17FBA2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E224627F2EB2E90202EA63B3379F9C4D /* Info.plist */,
+				1A5007F4D34A89DB8D92A783B0B9850C /* SVProgressHUD.modulemap */,
+				532D64F25C71546500C29C47B94C35EB /* SVProgressHUD.xcconfig */,
+				1CED7BDE13A3B45A96C7FE6A044AFF19 /* SVProgressHUD-dummy.m */,
+				CB14253699CED82F819791CE7B7A2E2C /* SVProgressHUD-prefix.pch */,
+				F5EC7561D8BA5B52AA05B4DAB092CBF6 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		8AE15D78491E7A37F4C08B0895234698 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D643E353463617DA874A7BE7F8F9C10D /* Kingfisher */,
+				6B4BB5DDCA93C7CC86D5EE5165FD56A4 /* SVProgressHUD */,
+				306F42A9D906BC332AA7207AD22A69E4 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		972BD2961BCB40AFCC43277DE825500F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC97A1E771C23AE456B47B74418E9547 /* Pods-iTunesApi_KakaoBank */,
+				C33A9ADA73076725D4852126D7A3EC90 /* Pods-iTunesApi_KakaoBankTests */,
+				AFD4F6B6CB42DDC91E37F5464F8B2EF2 /* Pods-iTunesApi_KakaoBankUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC97A1E771C23AE456B47B74418E9547 /* Pods-iTunesApi_KakaoBank */ = {
+			isa = PBXGroup;
+			children = (
+				BF18602616CB64EF4887E683E997286B /* Info.plist */,
+				EB20C61A090677E363874C1B79B8F387 /* Pods-iTunesApi_KakaoBank.modulemap */,
+				11A32172DC0EA26761907CAC228EF3D2 /* Pods-iTunesApi_KakaoBank-acknowledgements.markdown */,
+				9289AB24A186ACCB3D8D838FAE29E624 /* Pods-iTunesApi_KakaoBank-acknowledgements.plist */,
+				CB060D573EC314AE31A91760A2C2CE53 /* Pods-iTunesApi_KakaoBank-dummy.m */,
+				73BF9D124EA676F6BEA3663023698358 /* Pods-iTunesApi_KakaoBank-frameworks.sh */,
+				267161E6ADFEF497EA3BED93289106C8 /* Pods-iTunesApi_KakaoBank-resources.sh */,
+				F81035BC56219B23AB761E8958B9D31C /* Pods-iTunesApi_KakaoBank-umbrella.h */,
+				B1C227EB067B9B078A9C1326A02B2810 /* Pods-iTunesApi_KakaoBank.debug.xcconfig */,
+				54175525733E889CA06212BF919ECCE8 /* Pods-iTunesApi_KakaoBank.release.xcconfig */,
+			);
+			name = "Pods-iTunesApi_KakaoBank";
+			path = "Target Support Files/Pods-iTunesApi_KakaoBank";
+			sourceTree = "<group>";
+		};
+		AFD4F6B6CB42DDC91E37F5464F8B2EF2 /* Pods-iTunesApi_KakaoBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				461F5D6058215EA88EA5AF6BBA4E8740 /* Info.plist */,
+				34053EB522A0CCC6EEAC03D871B3CD8E /* Pods-iTunesApi_KakaoBankUITests.modulemap */,
+				E30A7A6E807E137388DA1F46B9A297DF /* Pods-iTunesApi_KakaoBankUITests-acknowledgements.markdown */,
+				2A30E610AEF364DF3C23706A7B44F589 /* Pods-iTunesApi_KakaoBankUITests-acknowledgements.plist */,
+				D66FD0FC6F4B0397398582CB32502069 /* Pods-iTunesApi_KakaoBankUITests-dummy.m */,
+				F25B935E303C9CF62129F0B4885FABFA /* Pods-iTunesApi_KakaoBankUITests-frameworks.sh */,
+				0AC4B129CD67E2EDC7EC8C7C24C44E7A /* Pods-iTunesApi_KakaoBankUITests-resources.sh */,
+				021C4248458B439A6F3E891A747A0B25 /* Pods-iTunesApi_KakaoBankUITests-umbrella.h */,
+				832A0FB116F56CE224ABC3113372C2C1 /* Pods-iTunesApi_KakaoBankUITests.debug.xcconfig */,
+				A0FDC156657F192348A8A6821BC46396 /* Pods-iTunesApi_KakaoBankUITests.release.xcconfig */,
+			);
+			name = "Pods-iTunesApi_KakaoBankUITests";
+			path = "Target Support Files/Pods-iTunesApi_KakaoBankUITests";
+			sourceTree = "<group>";
+		};
+		C33A9ADA73076725D4852126D7A3EC90 /* Pods-iTunesApi_KakaoBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				294F97245BCEB5A7A5A4D027C2E3B131 /* Info.plist */,
+				31C531CA7E038E73EC74EED691A976B7 /* Pods-iTunesApi_KakaoBankTests.modulemap */,
+				EADB11AEB0F0E69EB8DB0D1380B3A008 /* Pods-iTunesApi_KakaoBankTests-acknowledgements.markdown */,
+				19AB34BF989BE76E94AFABB01EF0E7CB /* Pods-iTunesApi_KakaoBankTests-acknowledgements.plist */,
+				B3335CAC487E9AA405C5C6A05663E2AB /* Pods-iTunesApi_KakaoBankTests-dummy.m */,
+				670FB560235599DF48B105B9C766B79A /* Pods-iTunesApi_KakaoBankTests-frameworks.sh */,
+				6066F0EC8BAF76082E4BDE1CD7D8DD75 /* Pods-iTunesApi_KakaoBankTests-resources.sh */,
+				8043BF8E080B0F78406B1B18DCFAC0B8 /* Pods-iTunesApi_KakaoBankTests-umbrella.h */,
+				4A8AEE526460DABAF9B07179CC1D05F9 /* Pods-iTunesApi_KakaoBankTests.debug.xcconfig */,
+				67705BE7C53596581713AEFCAAC41F55 /* Pods-iTunesApi_KakaoBankTests.release.xcconfig */,
+			);
+			name = "Pods-iTunesApi_KakaoBankTests";
+			path = "Target Support Files/Pods-iTunesApi_KakaoBankTests";
+			sourceTree = "<group>";
+		};
+		CAF49CA9B47CE25BA260AD7CBA358FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FD0149B4A06D40818F37F99C29C68E3 /* Kingfisher.framework */,
+				3E72EB390C0D65EC6A8CD12D520CC15E /* Pods_iTunesApi_KakaoBank.framework */,
+				8216B94B4A5B577A45E832DD234910C1 /* Pods_iTunesApi_KakaoBankTests.framework */,
+				685D271DAAAD068A9A0EBF9C0BAEAD77 /* Pods_iTunesApi_KakaoBankUITests.framework */,
+				64084E084B8467C2C8DF6E63ECA21421 /* SVProgressHUD.framework */,
+				78B3E9D016AAB08D3ED0711E810031CC /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D643E353463617DA874A7BE7F8F9C10D /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+				332068EE181D388621E33349D5C06AD0 /* AnimatedImageView.swift */,
+				0D052026D7EF41E6BF0186A34D4E8214 /* Box.swift */,
+				F5D0D55EF4464BA1F7522B8A6547350D /* CacheSerializer.swift */,
+				A838042ECDA5D89A31E12C1C89E946B5 /* Filter.swift */,
+				512115CF46FC745765479104A6390D60 /* Image.swift */,
+				68827CFD092B683381D9A17511188431 /* ImageCache.swift */,
+				15FF58A15C0C3A278577D665EB10A202 /* ImageDownloader.swift */,
+				6C8604CDE2EC195950A5272ED9D099D2 /* ImagePrefetcher.swift */,
+				90F807F0801F84035B910162AA91326B /* ImageProcessor.swift */,
+				7DC6D6A6D60CAF5F0B538301D8306C4F /* ImageTransition.swift */,
+				FC9A1A0EA25B012A6EEE9F6776B28EEA /* ImageView+Kingfisher.swift */,
+				452492E91F5D4F606E3828AD73AE8079 /* Indicator.swift */,
+				460E6C2F0C60CB37F1EF094DC9037B2F /* Kingfisher.h */,
+				ADE23CD9B24EB01BAC95C425E0725BD2 /* Kingfisher.swift */,
+				1B7711629E4FD5199799EA8674E76F16 /* KingfisherManager.swift */,
+				8412A04C99039967B5CCABBF99F62CE2 /* KingfisherOptionsInfo.swift */,
+				1E06570D27B31EA2704201F52B7847F9 /* RequestModifier.swift */,
+				4C6C4C57F6E91B21DC03EBAB6BCC63D0 /* Resource.swift */,
+				DE2F74899A537FBB55BC03EC62535271 /* String+MD5.swift */,
+				9DEF08D12FE6C76CBCEAD1A484C7685F /* ThreadHelper.swift */,
+				B26078803459D23F6E4B301F7300B98B /* UIButton+Kingfisher.swift */,
+				3FA96C2C9EBDBE9293C795E8BD1D5FCF /* Support Files */,
+			);
+			name = Kingfisher;
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		F50E85800E889287FEC5A6920DBA9546 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				44B4C5EF04AF72A50CBFAFA7C8CB92B5 /* CFNetwork.framework */,
+				789FEE98D8DA8D167A6AC10F788F32A3 /* Foundation.framework */,
+				B29E773093D44B778DB74AC5663DA9EC /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FE41F4D4D4726653CE4BAB86074BB2CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3F19A6ABB8B5CC4E606F44CAFE3EC02C /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F35D1EBAEF99D38F02A0B8CA5D8FBE /* Kingfisher-umbrella.h in Headers */,
+				179523942E7D1E3EB210EF05E2C7AE79 /* Kingfisher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		221749A0FADB1DE8A0BC05AB1FD806A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28ECAB0E7A55DB60E0B4DCA17290F06 /* Pods-iTunesApi_KakaoBankUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F5DF7DDEA23329078CA29F7F897B0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BB74743BF2436045D93B48391E3842 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		392A42744721D253398F30D7BE4255A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3198DB2779A40DE5D3770F372760024C /* SVIndefiniteAnimatedView.h in Headers */,
+				09CB5C14B744C3197DDB145B7CF4A38C /* SVProgressAnimatedView.h in Headers */,
+				7E6E12F415EE89C15503AF87452EBDDC /* SVProgressHUD-umbrella.h in Headers */,
+				7215D00572824E79B9699B50E23BED86 /* SVProgressHUD.h in Headers */,
+				9FB0D33F6B4DBF96F4463E805D7532F3 /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9DA7FDE43E9362799834F1295F25871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB722567A989D34CDCE25B1573170BE8 /* Pods-iTunesApi_KakaoBank-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8019D8BCC56A93A480D02A6DF87A6C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C0CAA3C4C3622C4B2B417616756FA4 /* Pods-iTunesApi_KakaoBankTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BE8923F8D59C6E0D5B73E6D63E00929 /* Pods-iTunesApi_KakaoBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE3A219FA0F4E205EED0886AB4A99FA /* Build configuration list for PBXNativeTarget "Pods-iTunesApi_KakaoBank" */;
+			buildPhases = (
+				F96D8C5E922E6BA84E776FF9D8B897B7 /* Sources */,
+				0F1BEFDA917FACADED0FC770683DF9AB /* Frameworks */,
+				B9DA7FDE43E9362799834F1295F25871 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EE600500229A8ACA4F6317C34911ED0 /* PBXTargetDependency */,
+				9F9A87F26622BD18F77DC5DA9680E9F3 /* PBXTargetDependency */,
+				6881C559C45AB45338C0DF51719DA208 /* PBXTargetDependency */,
+			);
+			name = "Pods-iTunesApi_KakaoBank";
+			productName = "Pods-iTunesApi_KakaoBank";
+			productReference = 3E72EB390C0D65EC6A8CD12D520CC15E /* Pods_iTunesApi_KakaoBank.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A920CF5A3666CD9FD899186DCF628C6 /* Pods-iTunesApi_KakaoBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B72F6CD3252E68268C969CFF9ABB3C /* Build configuration list for PBXNativeTarget "Pods-iTunesApi_KakaoBankTests" */;
+			buildPhases = (
+				38E240CFFEAC03C098AF2D7DFCF92ABE /* Sources */,
+				2B7EEC2FF183C75583B87B7E277DA333 /* Frameworks */,
+				C8019D8BCC56A93A480D02A6DF87A6C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iTunesApi_KakaoBankTests";
+			productName = "Pods-iTunesApi_KakaoBankTests";
+			productReference = 8216B94B4A5B577A45E832DD234910C1 /* Pods_iTunesApi_KakaoBankTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		32B87E27C8BB8FDFC3CC463B9A6B0882 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B7AF6D98D81065145CD7FF6E246FDEF /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				B9622D18B6475B83FB8843116646F279 /* Sources */,
+				642E950AEDEA5C9BA5C05A7D9EEC5C31 /* Frameworks */,
+				392A42744721D253398F30D7BE4255A6 /* Headers */,
+				6C7858F3DC1C8334B4803B65FBBD7853 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 64084E084B8467C2C8DF6E63ECA21421 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69C7AAA055D849CC24FD7281BA54B1D4 /* Pods-iTunesApi_KakaoBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5944FB1D2B22C07149ACA2862E972044 /* Build configuration list for PBXNativeTarget "Pods-iTunesApi_KakaoBankUITests" */;
+			buildPhases = (
+				F482C75191EB92DCC543B84C140B5590 /* Sources */,
+				9BB8E917A2357FA4CC119B5421D6DD66 /* Frameworks */,
+				221749A0FADB1DE8A0BC05AB1FD806A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iTunesApi_KakaoBankUITests";
+			productName = "Pods-iTunesApi_KakaoBankUITests";
+			productReference = 685D271DAAAD068A9A0EBF9C0BAEAD77 /* Pods_iTunesApi_KakaoBankUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4944FEC314D1A66588651D006273ADE /* Kingfisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */;
+			buildPhases = (
+				EAC7EA95310C5E1E724C632852F7D186 /* Sources */,
+				ED03E5917B811BACFE75189AE0C2A469 /* Frameworks */,
+				0F94B6BFE5A6242FBBB0BE3D27F7CEE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kingfisher;
+			productName = Kingfisher;
+			productReference = 1FD0149B4A06D40818F37F99C29C68E3 /* Kingfisher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA45262EC4E6DAE1FAA3FDDBAF86CC6E /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA687C2C078D6122E3C535BA2887BBE4 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				BF749C60193BECF3982F693D26CA3D97 /* Sources */,
+				FC4F91FACB53EF5C86EC8083D1B04D38 /* Frameworks */,
+				36F5DF7DDEA23329078CA29F7F897B0F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 78B3E9D016AAB08D3ED0711E810031CC /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CAF49CA9B47CE25BA260AD7CBA358FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4944FEC314D1A66588651D006273ADE /* Kingfisher */,
+				0BE8923F8D59C6E0D5B73E6D63E00929 /* Pods-iTunesApi_KakaoBank */,
+				2A920CF5A3666CD9FD899186DCF628C6 /* Pods-iTunesApi_KakaoBankTests */,
+				69C7AAA055D849CC24FD7281BA54B1D4 /* Pods-iTunesApi_KakaoBankUITests */,
+				32B87E27C8BB8FDFC3CC463B9A6B0882 /* SVProgressHUD */,
+				EA45262EC4E6DAE1FAA3FDDBAF86CC6E /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7858F3DC1C8334B4803B65FBBD7853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81372AAB46225624A8F1DD8471C6D1A8 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E240CFFEAC03C098AF2D7DFCF92ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D577DF8D07FC2DF90A18E506906461 /* Pods-iTunesApi_KakaoBankTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9622D18B6475B83FB8843116646F279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3C0EDAF1AC539FC345BCB66287CDEA2 /* SVIndefiniteAnimatedView.m in Sources */,
+				0CE77242B96230E51232899B8CE00444 /* SVProgressAnimatedView.m in Sources */,
+				0CFCC22E313035CA0D50C79C4CC66B2D /* SVProgressHUD-dummy.m in Sources */,
+				80649564D821EFBE051EFE3D1235433F /* SVProgressHUD.m in Sources */,
+				E772438F2B4DE1FAF1DE6259710AFF10 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF749C60193BECF3982F693D26CA3D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A9ABB43F7CDA314333C26E028C1A0D /* SwiftyJSON-dummy.m in Sources */,
+				C6494C96EB6CD385ACD010CE0D348BAB /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC7EA95310C5E1E724C632852F7D186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342AE33215135AD56B73580012DC22AB /* AnimatedImageView.swift in Sources */,
+				6DA770087D354CDCD3889CDAE7C4C698 /* Box.swift in Sources */,
+				2E5E570FFC49EF98550401421A243C0F /* CacheSerializer.swift in Sources */,
+				4089E39F76F86466B8DDD39A1C1ABB6B /* Filter.swift in Sources */,
+				33A14E817C0FA585D5DA3A55E453299D /* Image.swift in Sources */,
+				F8E957950566622A3E4B61AACE8F0B4A /* ImageCache.swift in Sources */,
+				DC6080C64C269628C3F5107BE87055E2 /* ImageDownloader.swift in Sources */,
+				3414E1D9CB15149A296E16C45967B021 /* ImagePrefetcher.swift in Sources */,
+				0E9CC28AC8E34FE8E1C87E933E04BC7A /* ImageProcessor.swift in Sources */,
+				86B7DA678C8705523C300947117C0706 /* ImageTransition.swift in Sources */,
+				33395912F2FFA355C4C36B7EDEAA3DA7 /* ImageView+Kingfisher.swift in Sources */,
+				52A280AB4852FDE92DF09B5E79D5C2AA /* Indicator.swift in Sources */,
+				6A375593407BC7937234B2B6A0811760 /* Kingfisher-dummy.m in Sources */,
+				C9CC5ED97D29C6C3DE22B78A9AA2AD91 /* Kingfisher.swift in Sources */,
+				7636F846675C9F4ED96E00C6C19A4890 /* KingfisherManager.swift in Sources */,
+				378B44CAA91C2106076668FDE72E1E02 /* KingfisherOptionsInfo.swift in Sources */,
+				EA816A580C3858934ED6FE92040C26DD /* RequestModifier.swift in Sources */,
+				8DA7E6883118CB3C8132B64D3D43AE0B /* Resource.swift in Sources */,
+				9F826F893E86EB86591B637A1CE4B13A /* String+MD5.swift in Sources */,
+				6CD63E1564618B6213B98E0ABBC3127C /* ThreadHelper.swift in Sources */,
+				EE89512E8D36E67CDC525DB9D5BBF5A7 /* UIButton+Kingfisher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F482C75191EB92DCC543B84C140B5590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75475C6F8FA5E4BCCAED12EB31D46C3 /* Pods-iTunesApi_KakaoBankUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96D8C5E922E6BA84E776FF9D8B897B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A5D8E130FF8E2D42EB9C9B62A36D324 /* Pods-iTunesApi_KakaoBank-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EE600500229A8ACA4F6317C34911ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kingfisher;
+			target = C4944FEC314D1A66588651D006273ADE /* Kingfisher */;
+			targetProxy = A156FBDC979A088741AC1463B82B44D0 /* PBXContainerItemProxy */;
+		};
+		6881C559C45AB45338C0DF51719DA208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = EA45262EC4E6DAE1FAA3FDDBAF86CC6E /* SwiftyJSON */;
+			targetProxy = 1B4C41BD9331C351775B408FBC7DBEB3 /* PBXContainerItemProxy */;
+		};
+		9F9A87F26622BD18F77DC5DA9680E9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 32B87E27C8BB8FDFC3CC463B9A6B0882 /* SVProgressHUD */;
+			targetProxy = E94B44A81649FE3A4D94455327465469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A486D53B7EB99192894E9FBB51D69E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532D64F25C71546500C29C47B94C35EB /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		380C30050278E488BE23DB926933212E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C492EC9E83B927E16A51CE7AB2D75DAE /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F4A9AE2176619B79EE9F58F23A4907E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67705BE7C53596581713AEFCAAC41F55 /* Pods-iTunesApi_KakaoBankTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iTunesApi_KakaoBankTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iTunesApi_KakaoBankTests/Pods-iTunesApi_KakaoBankTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iTunesApi_KakaoBankTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		660959F966A867FF871BB46CFB20CF04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1C227EB067B9B078A9C1326A02B2810 /* Pods-iTunesApi_KakaoBank.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iTunesApi_KakaoBank/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iTunesApi_KakaoBank/Pods-iTunesApi_KakaoBank.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iTunesApi_KakaoBank;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C492EC9E83B927E16A51CE7AB2D75DAE /* Kingfisher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kingfisher/Kingfisher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kingfisher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kingfisher/Kingfisher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kingfisher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		800B51B907398A9509F6D8132C1B912B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832A0FB116F56CE224ABC3113372C2C1 /* Pods-iTunesApi_KakaoBankUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iTunesApi_KakaoBankUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iTunesApi_KakaoBankUITests/Pods-iTunesApi_KakaoBankUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iTunesApi_KakaoBankUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3C8B305EAF25EABFBEEC1CB2892A08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F2416A87E68384880CA43C0A0907BC /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A973E19F46763EC668272DC5CA43FCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 532D64F25C71546500C29C47B94C35EB /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B156911F1805A43C2C95BBCBC713C45F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54175525733E889CA06212BF919ECCE8 /* Pods-iTunesApi_KakaoBank.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iTunesApi_KakaoBank/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iTunesApi_KakaoBank/Pods-iTunesApi_KakaoBank.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iTunesApi_KakaoBank;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D30111A49205C49085BDFB18BB59F384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F2416A87E68384880CA43C0A0907BC /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD3E5EB56F9311467FED89EEF60555FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8AEE526460DABAF9B07179CC1D05F9 /* Pods-iTunesApi_KakaoBankTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iTunesApi_KakaoBankTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iTunesApi_KakaoBankTests/Pods-iTunesApi_KakaoBankTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iTunesApi_KakaoBankTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC89BEEB503D23ACBF02869BE8A53195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FDC156657F192348A8A6821BC46396 /* Pods-iTunesApi_KakaoBankUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iTunesApi_KakaoBankUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iTunesApi_KakaoBankUITests/Pods-iTunesApi_KakaoBankUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iTunesApi_KakaoBankUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5944FB1D2B22C07149ACA2862E972044 /* Build configuration list for PBXNativeTarget "Pods-iTunesApi_KakaoBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800B51B907398A9509F6D8132C1B912B /* Debug */,
+				FC89BEEB503D23ACBF02869BE8A53195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76E7EFBCEA1340954A03AA68051C2306 /* Build configuration list for PBXNativeTarget "Kingfisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E53245BBAAAB71AD4E0EE52CA99FD28 /* Debug */,
+				380C30050278E488BE23DB926933212E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B7AF6D98D81065145CD7FF6E246FDEF /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A486D53B7EB99192894E9FBB51D69E2 /* Debug */,
+				A973E19F46763EC668272DC5CA43FCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B72F6CD3252E68268C969CFF9ABB3C /* Build configuration list for PBXNativeTarget "Pods-iTunesApi_KakaoBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3E5EB56F9311467FED89EEF60555FE /* Debug */,
+				4F4A9AE2176619B79EE9F58F23A4907E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA687C2C078D6122E3C535BA2887BBE4 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30111A49205C49085BDFB18BB59F384 /* Debug */,
+				A3C8B305EAF25EABFBEEC1CB2892A08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE3A219FA0F4E205EED0886AB4A99FA /* Build configuration list for PBXNativeTarget "Pods-iTunesApi_KakaoBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660959F966A867FF871BB46CFB20CF04 /* Debug */,
+				B156911F1805A43C2C95BBCBC713C45F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
